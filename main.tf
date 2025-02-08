@@ -1,7 +1,7 @@
 provider "azurerm" {
-    features {}
+  features {}
 }
 resource "azurerm_resource_group" "rg" {
-    name     = "rg-terraform"
-    location = "East US"
+  name     = "rg-terraform"
+  location = "East US"
 }
