@@ -8,6 +8,5 @@ terraform {
     storage_account_name = "redstora2gact12"
     container_name       = "cntr"
     key                  = "terraform.tfstate"
-
   }
 }
