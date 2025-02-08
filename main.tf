@@ -12,6 +12,6 @@ terraform {
   }
 }
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform1"
+  name     = "rg-terraform"
   location = "East US"
 }
