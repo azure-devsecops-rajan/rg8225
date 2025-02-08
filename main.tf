@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 terraform {
   backend "azurerm" {
-    resource_group_name  = "rg"
+    resource_group_name  = "rg-terraform1"
     storage_account_name = "redstora2gact12"
     container_name       = "cntr"
     key                  = "terraform.tfstate"
